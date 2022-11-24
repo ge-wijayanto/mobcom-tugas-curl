@@ -27,7 +27,5 @@ curl "http://localhost:3000/auth" ^
   -H "Content-Type: application/x-www-form-urlencoded" ^
   -H "Origin: http://localhost:3000" ^
   -H "Referer: http://localhost:3000/" ^
-  -H "Sec-Fetch-Dest: document" ^
-  -H "Sec-Fetch-Mode: navigate" ^
   --data-raw "username=Gregorius_Evan&password=140810190040" -L
 ```
