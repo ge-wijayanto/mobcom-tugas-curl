@@ -1,5 +1,4 @@
 # Tugas CURL - Mobile Computing
-------------------------
 
 ## Task
 Menggunakan CURL (atau metode lain) untuk login ke sebuah website melalui terminal / command line
@@ -17,7 +16,9 @@ Untuk melakukan login attempt, run command berikut pada terminal :
 
 ### Twill
 Source code Python dapat diakses di :  [twill-login.py](./twill-login.py)
-`py twill-login.py`
+```
+py twill-login.py
+```
 
 ### CURL
 CURL command yang lebih lengkap dapat diakses di :  [Full CURL Command](./full-curl-command.txt)
