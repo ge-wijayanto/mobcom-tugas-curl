@@ -1,0 +1,38 @@
+curl "http://localhost:3000/auth" ^
+  -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+  -H "Accept-Language: en" ^
+  -H "Cache-Control: max-age=0" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/x-www-form-urlencoded" ^
+  -H "Cookie: connect.sid=s^%^3Aekv7IbMPWGd4sb_3hT2tJVLf_JJ66ym0.Jsr^%^2Bmht5BCpirPHau2Hd1QJJ51U2qgx2w7aONzJN4^%^2Fg" ^
+  -H "Origin: http://localhost:3000" ^
+  -H "Referer: http://localhost:3000/" ^
+  -H "Sec-Fetch-Dest: document" ^
+  -H "Sec-Fetch-Mode: navigate" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "Sec-Fetch-User: ?1" ^
+  -H "Upgrade-Insecure-Requests: 1" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: ^\^"Google Chrome^\^";v=^\^"107^\^", ^\^"Chromium^\^";v=^\^"107^\^", ^\^"Not=A?Brand^\^";v=^\^"24^\^"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: ^\^"Windows^\^"" ^
+  --data-raw "username=Gregorius_Evan&password=140810190040" ^
+  --compressed &
+curl "http://localhost:3000/home" ^
+  -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+  -H "Accept-Language: en" ^
+  -H "Cache-Control: max-age=0" ^
+  -H "Connection: keep-alive" ^
+  -H "Cookie: connect.sid=s^%^3Aekv7IbMPWGd4sb_3hT2tJVLf_JJ66ym0.Jsr^%^2Bmht5BCpirPHau2Hd1QJJ51U2qgx2w7aONzJN4^%^2Fg" ^
+  -H "If-None-Match: W/^\^"1f-rbB3ucCZjVLUpoVIpzntrV3GU8k^\^"" ^
+  -H "Referer: http://localhost:3000/" ^
+  -H "Sec-Fetch-Dest: document" ^
+  -H "Sec-Fetch-Mode: navigate" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "Sec-Fetch-User: ?1" ^
+  -H "Upgrade-Insecure-Requests: 1" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" ^
+  -H "sec-ch-ua: ^\^"Google Chrome^\^";v=^\^"107^\^", ^\^"Chromium^\^";v=^\^"107^\^", ^\^"Not=A?Brand^\^";v=^\^"24^\^"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: ^\^"Windows^\^"" ^
+  --compressed
